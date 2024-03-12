@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Taş Kağıt Makas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="üstbilgi">
+    <h1 class="başlık">TAŞ KAĞIT MAKAS</h1>
+  </div>
+
+  <div class="anaAlan">
+
+    <div class="butonlar">
+      <button id="taşButon">
+        <div class="işaret">✊</div>
+      </button>
+      <button id="kağıtButon">
+        <div class="işaret">✋</div>
+      </button>
+      <button id="makasButon">
+        <div class="işaret">✌</div>
+      </button>
+    </div>
+
+    <div class="skorTahta">
+      <h2 class="skorBilgi" id="skorBilgi">3 puana ilk ulaşan kazanır!</h2>
+      <div class="skorlar">
+        <div class="skorKutu">
+          <div class="işaret" id="oyuncuİşaret">🙂</div>
+          <p class="skor" id="oyuncuSkor">Oyuncu: 0</p>
+        </div>
+        <div class="skorKutu">
+          <div class="işaret" id="bilgisayarİşaret">💻</div>
+          <p class="skor" id="bilgisayarSkor">Bilgisayar: 0</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  
+  <div id="tekrarOynaAlan">
+    <button id="tekrarOynaButon">
+      <div id="tekrarOynaİşaret">↻</div>
+    </button>
+  </div>
+
+  <div class="altbilgi">
+    <p>Hub21 &copy; 
+      <script>
+        document.write(new Date().getFullYear())
+      </script>
+    </p>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
